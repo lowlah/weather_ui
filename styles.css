@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.weather-container{
+    max-width: 650px;
+    border: 1px solid grey;
+    height: 500px;
+    margin: 20px auto;
+    display: block;
+    
+
+}
+
+header{
+    height: 60px;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+header p{
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+
+.search-container {
+    max-width: 300px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid grey;
+    
+}
+
+.search-input {
+    
+    width:250px;
+    padding: 4px;
+
+}
+ button{
+    width: 50px;
+    background-color: skyblue;
+    color: #ffff;
+    border: none;
+    font-weight: bolder;
+ }
+
+ button i{
+    color: #ffff;
+ }
+
+.wrapper{
+    display: flex;
+
+} 
+
+.part1{
+    padding: 0 10px;
+    margin-right: 10px;
+    position: relative;
+    line-height: 20px;
+    max-width: 300px;
+    border: 1px solid grey;
+
+}
+
+.part1 div{
+    font-size: 16px;
+}
+
+.part1 i{
+    position: absolute;
+    left: 140px;
+    top: 17px;
+    
+}
+
+i{
+    color: skyblue;
+}
+
+.upper{
+    margin-top: 50px;
+}
+
+.part2{
+    font-size: 16px;
+}
+
+table{
+    border: 1px solid grey;
+    table-layout: fixed;
+}
+
+td {
+  padding: 5px;
+}
+
+td {
+    border: 1px solid grey;
+}
+
+tr:nth-child(even){
+    background-color: skyblue;
+}
+
+h5{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.row{
+    padding-left: 10px;
+}
+
+.second{
+    padding:  30px 0;
+}
